@@ -23,10 +23,8 @@ Tech Stack: .NET 9, xUnit, Testcontainers, PostgreSQL (Docker), GitHub Actions
 
 Running Tests Locally
 1. make sure Docker is running
-2. dotnet test
+2. execute "dotnet test"
 
-CI/CD
-
-Tests run on every push and PR via GitHub Actions.
+CI/CD: Tests run on every push and PR via GitHub Actions.
 
 [![Tests](https://github.com/serhiiyasenev/Testcontainers/actions/workflows/test.yml/badge.svg)](https://github.com/serhiiyasenev/Testcontainers/actions/workflows/test.yml)
