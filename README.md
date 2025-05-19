@@ -1,8 +1,8 @@
-Testcontainers Demo (.NET + PostgreSQL)
+Testcontainers demo (.NET + PostgreSQL)
 
 https://dotnet.testcontainers.org/
 
-This project demonstrates how to use Testcontainers for .NET to run integration tests with a PostgreSQL container.
+This project demonstrates using Testcontainers for .NET to run integration tests with a PostgreSQL container.
 
 🗂️ **Project Structure**
 
@@ -21,9 +21,9 @@ graph TD
 
 Tech Stack: .NET 9, xUnit, Testcontainers, PostgreSQL (Docker), GitHub Actions
 
-Running Tests Locally
-1. make sure Docker is running
-2. execute "dotnet test"
+Running Tests Locally:
+1. Make sure Docker is running
+2. Execute "dotnet test"
 
 CI/CD: Tests run on every push and PR via GitHub Actions.
 
